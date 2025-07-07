@@ -72,3 +72,7 @@ streamlit run app.py
 - **Research & Trials**: Stratify patient data by tumor class
 
 ---
+## Files
+
+- **Tumour0.pynb**: model development
+- **Tumour1.py**: streamlit file
