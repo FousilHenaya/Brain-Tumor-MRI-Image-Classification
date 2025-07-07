@@ -16,14 +16,13 @@ Early and accurate detection of brain tumors is crucial for effective treatment.
 - 📚 **Model**: ResNet18 pretrained on ImageNet
 - 🔄 **Fine-Tuning**: Final and base layers fine-tuned for medical domain
 - 🎯 **Test Accuracy**: **95.53%**
-- 📈 **Macro F1 Score**: **96%**
+- 📈 **F1 Score**: **96%**
 - 💾 Trained on 2443 labeled MRI images
 
 ---
 
 ## 📁 Dataset
 
-- **Source**: [Roboflow: Labeled MRI Brain Tumor Dataset](https://universe.roboflow.com/ali-rostami/labeled-mri-brain-tumor-dataset)
 - **Classes**: Glioma, Meningioma, Pituitary, No Tumor
 - **Total Images**: 2443
 - **Split**:
@@ -53,7 +52,7 @@ Early and accurate detection of brain tumors is crucial for effective treatment.
 | Pituitary   | 0.94      | 0.98   | 0.96     |
 
 **Test Accuracy**: **95.53%**  
-**Macro Avg F1-score**: **96%**
+** Avg F1-score**: **96%**
 
 ---
 
@@ -66,60 +65,6 @@ Early and accurate detection of brain tumors is crucial for effective treatment.
 streamlit run app.py
 ```
 
-### 🖼 Sample Output:
-- Tumor Type: `Pituitary`
-- Confidence: `97.45%`
-
----
-
-## 🧪 Project Structure
-
-```
-brain-tumor-classifier/
-├── app.py                   ← Streamlit app
-├── models/
-│   └── resnet18_brain_tumor_final.pth
-├── scripts/
-│   ├── train_custom_cnn.py
-│   └── train_resnet18.py
-├── utils.py                 ← Preprocessing, model loader (optional)
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 💻 Installation
-
-```bash
-git clone https://github.com/your-username/brain-tumor-classifier.git
-cd brain-tumor-classifier
-pip install -r requirements.txt
-```
-
----
-
-## 📦 Requirements
-
-- Python 3.8+
-- PyTorch
-- torchvision
-- streamlit
-- matplotlib
-- seaborn
-- scikit-learn
-- Pillow
-
----
-
-## 📌 Future Work
-
-- Add Grad-CAM for visual tumor localization
-- Integrate Flask or FastAPI for API deployment
-- Train on larger, multi-modal datasets (e.g. DICOM series)
-
----
-
 ## 👩‍⚕️ Use Cases
 
 - **Clinical Decision Support**: Assist radiologists with quick second opinions
@@ -127,15 +72,3 @@ pip install -r requirements.txt
 - **Research & Trials**: Stratify patient data by tumor class
 
 ---
-
-## 👨‍💻 Author
-
-**Your Name**  
-_Data Science & Deep Learning Enthusiast_  
-📧 your.email@example.com
-
----
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
