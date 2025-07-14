@@ -1,7 +1,7 @@
 
 # 🧠 Brain Tumor MRI Image Classification
 
-This project leverages **deep learning** and **transfer learning** to classify brain MRI images into four categories: **glioma**, **meningioma**, **pituitary tumor**, and **no tumor**. It achieves high performance through a fine-tuned **ResNet18 model**, robust data augmentation, and is deployed via an interactive **Streamlit web app**.
+This project uses **deep learning** and **transfer learning** to classify brain MRI images into four categories: **glioma**, **meningioma**, **pituitary tumor**, and **no tumor**. It achieves high performance through a fine-tuned **ResNet18 model**, robust data augmentation, and is deployed via an interactive **Streamlit web app**.
 
 ---
 
